@@ -1,0 +1,44 @@
+---
+title: "my-first-document"
+format: html
+editor: visual
+author: Markus
+table-of-contents: true
+---
+
+This document is all about my previous experience with writing and publishing.
+
+## What gave me joy
+
+-   making progress in writing code (R)
+
+-   planning of the publication in a team (brainstorming sessions)
+
+-   some parts of the writing itself
+
+## What I found challenging
+
+-   since I joined the project at a later stage: getting into the work other had previously done
+
+-   learning how to use new tools (Git/GitHub, Overleaf, ...)
+
+## What I want to learn
+
+-   using quarto files to create documents that contain both code and text (and graphs)
+
+## The rest is irrelevant
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
