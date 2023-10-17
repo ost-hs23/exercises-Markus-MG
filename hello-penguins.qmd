@@ -1,8 +1,17 @@
 ---
 title: "Hello, Penguins!"
-format: html
+format: 
+  html: 
+    toc: true
 editor: visual
-author: Markus
+author: 
+  name: Markus
+  affiliation: Center for Security Studies, ETH Zurich
+code-fold: true
+code-overflow: scroll
+fig-cap-location: bottom
+tbl-cap-location: top
+date: today
 ---
 
 ## Data
@@ -12,7 +21,6 @@ For this analysis we'll use the penguins dataset from the palmerpenguins R packa
 ```{r}
 #| label: load-packages
 #| message: false
-#| echo: false
 
 library(tidyverse)
 library(ggthemes)
