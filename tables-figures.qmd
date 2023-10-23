@@ -14,15 +14,36 @@ library(palmerpenguins)
 ```
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
-
 2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
-
 3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
+
+[Task 1:]{.underline}
+
+| Restaurant | Cuisine |
+|------------|---------|
+|            |         |
+|            |         |
+
+: Best table ever {#tbl-Best}
+
+As the name suggests, @tbl-Best is the best table that has ever been created.
+
+[Task 2:]{.underline}
+
+As you can see in @fig-quarto, the quarto logo is anything but beautiful.
+
+![Quarto Logo](images/quarto-logo.png){#fig-quarto}
+
+[Task 3:]{.underline}
+
+We all know that @fig-penguins is a masterpiece!
 
 ```{r}
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
+#| label: fig-penguins
+#| fig-cap: A few penguins
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 

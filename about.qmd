@@ -1,0 +1,36 @@
+---
+title: "Markus Geray"
+about: 
+  template: trestles
+  image: Markus_Geray.jpg
+  links: 
+    - icon: ORCiD
+      text: ORCiD
+      href: https://orcid.org/0000-0003-2568-5475
+---
+
+Markus Geray is a PhD candidate at the Center for Security Studies (CSS) at ETH Zurich. In his research, Markus studies how roadblocks structure the relationships between armed actors and the local population in fragmented conflicts.
+
+## Education
+
+**ETH Zurich \| Zurich, Swtzerland**
+
+PhD Political Science \| January 2021 - present
+
+**University of Konstanz \| Konstanz, Germany**
+
+MA Politics and Public Administration (Specialisations: Research Methods; International Administration and Conflict Management) \| October 2016 - May 2019
+
+**University of Konstanz \| Konstanz, Germany**
+
+BA Politics and Public Administration \| October 2012 - September 2016
+
+## Experience
+
+**German Development Institute** \| External Researcher \| September - December 2020
+
+**International Peace Information Service (IPIS)** \| GIS Intern \| September - December 2019
+
+**United Nations High Commissioner for Refugees (UNHCR)** \| Intern \| April - June 2019
+
+**State Agency for Civic Education Baden-Württemberg** \| Peer Educator \| September 2015 - July 2017

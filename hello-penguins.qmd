@@ -12,6 +12,7 @@ code-overflow: scroll
 fig-cap-location: bottom
 tbl-cap-location: top
 date: today
+urlcolor: blue
 ---
 
 ## Data

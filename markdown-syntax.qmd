@@ -20,8 +20,7 @@ table-of-contents: true
 
 ![Beautiful image^2^](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.stihl.co.uk%2Fwp-content%2Fuploads%2F2017%2F10%2FGrowing-pumpkins.jpg&f=1&nofb=1&ipt=1fdd737e96042087c81c543ef089054ba59b48243fb8843141cdf5820d4917ae&ipo=images)
 
-> I like pumpkin.
->  - Markus
+> I like pumpkin. - Markus
 
 ### The end of it
 
