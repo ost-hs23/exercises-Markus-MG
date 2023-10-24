@@ -1,8 +1,17 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: "Markus Geray"
+format:
+  revealjs: 
+    logo: images/quarto-logo.png
+    footer: "My Footer"
+    chalkboard: true
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
+
+# Introduction
 
 ## Data
 
@@ -18,6 +27,10 @@ library(palmerpenguins)
 library(gt)
 ```
 
+::: notes
+-   I have so many cool things to say
+:::
+
 ## Species
 
 The figure below is a scatterplot of species of penguins.
@@ -25,8 +38,10 @@ The figure below is a scatterplot of species of penguins.
 ```{r}
 #| label: bill-dims-species
 #| warning: false
-#| fig-width: 5
+#| fig-width: 10
 #| fig-asp: 0.618
+#| echo: true
+#| output-location: fragment
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
@@ -51,3 +66,17 @@ penguins |>
   select(species, island, bill_length_mm, bill_depth_mm) |>
   gt()
 ```
+
+# Analysis
+
+## Modeling
+
+::: incremental
+-   info about the model
+
+-   text about results
+
+-   comments about shortcomings
+:::
+
+# References
